@@ -16,8 +16,10 @@ This project demonstrates how to build a custom Docker image using Nginx to serv
 4. Ran container with port mapping:
    docker run -d -p 80:80 mynginx:0.1
 ## Commands Used 
+```bash 
 docker build . -t mynignx:0.1 
 docker run -d  -p 80:80 mynginx:0.1 
+```
 ## Files Used 
 Dockerfile index.html 
 
