@@ -1,0 +1,8 @@
+## Steps Performed 
+ make directory
+move index.html file to this new directory 
+mount the path 
+## Commands Used 
+mkdir web 
+mv index.html /web 
+docker run -d -p 80:80 -v /web:/usr/share/nginx/html nginx
